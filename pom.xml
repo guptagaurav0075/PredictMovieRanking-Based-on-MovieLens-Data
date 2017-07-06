@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.org.practice</groupId>
-  <artifactId>PredictMovieRankin-Based-on-MovieLens-Data</artifactId>
+  <artifactId>PredictMovieRanking-Based-on-MovieLens-Data</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>PredictMovieRankin-Based-on-MovieLens-Data</name>
+  <name>PredictMovieRanking-Based-on-MovieLens-Data</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,6 +54,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-    		<finalName>AnomalyDetection</finalName>
+    		<finalName>MovieRanking</finalName>
 	</build>
 </project>
