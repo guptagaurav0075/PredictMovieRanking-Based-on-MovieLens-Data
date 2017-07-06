@@ -4,7 +4,6 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.IntWritable;
-
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
