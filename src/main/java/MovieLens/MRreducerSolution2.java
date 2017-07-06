@@ -65,7 +65,7 @@ public class MRreducerSolution2  extends Reducer <Text,Text,Text,Text> {
 		   if(movies.length==3){
 			   String movieName[] = movies[0].split("::Genres");
 			   if(movieName.length>0){
-				   context.write(new Text(movies[1]), new Text(movieName[0]+"\t"+movies[2]));   
+				   context.write(new Text(movies[1].replaceFirst("MovieID_@_", "")), new Text(movieName[0]+"\t"+movies[2]));   
 			   }
 		   }
 	   }

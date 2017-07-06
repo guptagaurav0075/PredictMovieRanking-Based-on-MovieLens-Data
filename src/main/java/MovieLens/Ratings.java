@@ -31,7 +31,7 @@ public class Ratings extends Mapper <LongWritable,Text,Text, Text> {
 			ratingDesc.append("::");
 			ratingDesc.append("TimeStamp_@_");
 			ratingDesc.append(values[3]);
-			context.write(new Text(movieID), new Text(ratingDesc.toString()));
+			context.write(new Text(movieID.toString()), new Text(ratingDesc.toString()));
 		}
 	}
 }
